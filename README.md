@@ -1,18 +1,33 @@
+# Madlibs project
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## How to do this activity
+
+1. Form a group.
+2. fork this repo on github
+2. Create a c9 workspace from your fork
+3. invite a few group members around whos computers your other group members will huddle.
+4. edit the code
+5. commit your code with a nice comment
+6. push to github
+7. create a pull request
+8. instructor will merge in everybody's work
+
+Groups should work on the following:
+
+* Story-group should alter `layout.html` to make a story.
+* The adjective, noun, and verb groups should work on their files.
 
 
-Hi there! Welcome to Cloud9 IDE!
+## How to install
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+If you need to install the repo.
 
-Happy coding!
-The Cloud9 IDE team
+    git clone git@github.com:johnqyalie/mgt656-madlibs.git
+    
+Install the dependencies
+
+    npm install
+    
+Run the code
+
+    nodemon ./server.js
