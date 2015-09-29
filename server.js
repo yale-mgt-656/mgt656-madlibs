@@ -15,7 +15,7 @@ function loadPartOfSpeech(part){
   return function(){
     console.log('partsArray =', partsArray);
     return _.sample(partsArray);
-  }
+  };
 }
 
 var partsOfSpeech = ['nouns', 'verbs', 'adjectives', 'adverbs'];
@@ -29,7 +29,5 @@ app.get('/', function (req, res) {
 });
 
 var server = app.listen(process.env.PORT, function () {
-
   console.log('Example app listening at http://%s:%s', process.env.IP, process.env.PORT);
-
-})
+});

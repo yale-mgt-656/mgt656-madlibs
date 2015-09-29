@@ -1,4 +1,3 @@
-
 module.exports.adjectives = [
     'short',
     'crafty',
