@@ -3,15 +3,27 @@ For this activity, you will use what you've learned about git to work collaborat
 
 ## How to do this activity
 
-1. Form a group. 
+1. Form a group of around size N.
 2. We will tell your group whether you guys are a story, verb, noun, adjective, or adverb group. And we will also give your group a number!
-3. Make a Github account if you haven't for the group. 
-  ![Signing up for Github](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/signup.png)
+3. Make a Github account if you haven't already got one for the group. 
+  
+->![Signing up for Github](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/signup.png)<-
+
 4. Fork the repository on Github
   * Find the Madlibs code here: [https://github.com/yale-mgt-656/mgt656-madlibs](https://github.com/yale-mgt-656/mgt656-madlibs)
 5. Edit the file you want on Github. You have to create a new file.
-  * Click on the plus sign to make a new file. Make sure you are in the right folder first. ![Making a new file](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/new.png)
+  * Click on the plus sign to make a new file. Make sure you are in the right folder first. 
+
+->![Making a new file](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/new.png)<-
+  
+  * If you want edit an already existing file, click the pencil logo near the top of the page. Here's an example of me trying to edit the file `./lib/misc.js` (you shouldn't be editing this file). 
+
+->![Making a new file](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/edit.png)<-  
+
 6. Commit your code with a nice and useful comment.
+
+->![Making a new file](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/commit.png)<-  
+
 7. Push to Github.
 After you are done...
 8. Create a pull request.
