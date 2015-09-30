@@ -5,19 +5,17 @@ For this activity, you will use what you've learned about git to work collaborat
 
 1. Form a group. 
 2. We will tell your group whether you guys are a story, verb, noun, adjective, or adverb group. And we will also give your group a number!
-2. Make a Github account if you haven't for the group. 
-
-
-3. Fork the repository on Github
-
+3. Make a Github account if you haven't for the group. 
+  ![Signing up for Github](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/signup.png)
+4. Fork the repository on Github
   * Find the Madlibs code here: [https://github.com/yale-mgt-656/mgt656-madlibs](https://github.com/yale-mgt-656/mgt656-madlibs)
-
-4. Edit the file you want on Github. You have to create a new file.
-5. Commit your code with a nice and useful comment.
-6. Push to Github.
+5. Edit the file you want on Github. You have to create a new file.
+  * Click on the plus sign to make a new file. Make sure you are in the right folder first. ![Making a new file](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/new.png)
+6. Commit your code with a nice and useful comment.
+7. Push to Github.
 After you are done...
-7. Create a pull request.
-8. The instructor will merge in everybody's work.
+8. Create a pull request.
+9. The instructor will merge in everybody's work.
 
 Groups should work on the following:
 
