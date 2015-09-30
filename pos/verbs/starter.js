@@ -1,6 +1,10 @@
 
 module.exports.verbs = [
-    'run',
-    'jump',
-    'code'
+    'twerk',
+    'punch',
+    'whip'
 ];
+
+
+
+
