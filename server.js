@@ -9,11 +9,12 @@ nunjucks.configure('stories', {
 });
 
 var requireAll = require('./lib/misc.js').requireAll;
+var requireLayout = require('./lib/misc.js').requireLayout;
 
 function loadPartOfSpeech(part){
   var partsArray = requireAll(__dirname, part, part);
   return function(){
-    console.log('partsArray =', partsArray);
+    // console.log('partsArray =', partsArray);
     return _.sample(partsArray);
   };
 }
@@ -24,8 +25,18 @@ _.each(partsOfSpeech, function(part){
   context[part] = {get: loadPartOfSpeech(part)};
 });
 
-app.get('/', function (req, res) {
-  res.render('layout.html', context);
+// Get an array of all filenames.
+var allLayouts = requireLayout(__dirname, 'stories');
+// Set the origin into a random route.
+app.get('/', function(req, res) {
+  res.render(_.sample(allLayouts), context);
+});
+// Loop through each of the files in stories and render them.
+_.each(allLayouts, function(layout) {
+  var newlayout = layout.replace(".html", "");
+  app.get('/' + newlayout, function (req, res) {
+    res.render(layout, context);
+  });
 });
 
 var server = app.listen(process.env.PORT, function () {
