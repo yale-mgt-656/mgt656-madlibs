@@ -26,7 +26,7 @@ where `netid` is your netid. The password is your Yale CAS password. Once you're
 on the machine, you should clone your fork of the starter repo. That will be a command
 like
 ```
-  git clone
+  git clone https://github.com/yale-mgt-656/mgt656-madlibs.git
 ```
 
 **5) Pick whether you guys will be a story, verb, noun, adjective, or adverb group.**
@@ -127,20 +127,3 @@ Bother Kyle or the TAs if nothing's working.
 ## Have Fun and Ask Questions!
 
 Something to keep in mind as you are working: Make sure you comment your code. You may not need it but it's generally a good idea so that you and others can understand what is going on.
-
-## How to install (Not Necessary)
-
-Everything should be able to be done on the Github webpage (https://github.com/yale-mgt-656/mgt656-madlibs). But if for some reason, you need to install the repo, here are the instructions.
-
-    git clone https://github.com/yale-mgt-656/mgt656-madlibs.git
-
-Install the dependencies. If you get errors, make sure you set environment variables for PORT and IP.
-
-    export PORT='3000'
-    export IP='localhost'
-    npm install
-
-Run the code. Install nodemon if you don't have it!
-
-    npm install nodemon
-    nodemon ./server.js
