@@ -1,0 +1,6 @@
+module.exports.verbs = [
+	'eat',
+	'sleep',
+	'rave',
+	'repeat'
+];
