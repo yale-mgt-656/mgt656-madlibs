@@ -4,17 +4,25 @@ For this activity, you will use what you've learned about git to work collaborat
 ## How To Setup This Activity
 
 **1) Form a group of around size N with your neighbors.**
+
 **2) We will tell your group whether you guys are a story, verb, noun, adjective, or adverb group. And we will also give your group a number!**
+
   The type of group and your group number is really important! When you follow the rest of the instructions, make sure you remember these 2 things.
+
 **3) Make a Github account if you haven't already got one for the group.**
   
 ![Signing up for Github](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/signup.png)
 
-**4) Fork the repository on Github.** Forking means to make a copy of the code but attach it to your own Github repository so that you can make changes.
+**4) Fork the repository on Github.** 
+
+Forking means to make a copy of the code but attach it to your own Github repository so that you can make changes.
   * Find the Madlibs code here: [https://github.com/yale-mgt-656/mgt656-madlibs](https://github.com/yale-mgt-656/mgt656-madlibs)
 
   If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
-**5) Edit the file you want on Github.** You have to create a new file.
+
+**5) Edit the file you want on Github.** 
+
+You have to create a new file.
   * Click on the plus sign to make a new file. Make sure you are in the right folder first.
 
 ![Making a new file](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/new.png)
@@ -48,7 +56,9 @@ For this activity, you will use what you've learned about git to work collaborat
 
   If you need extra help, check this out [https://help.github.com/articles/using-pull-requests/](https://help.github.com/articles/using-pull-requests/) or just come see a TA.
 
-**8) The instructor will merge in everybody's work.** Bother Kyle or the TAs if nothing's working.
+**8) The instructor will merge in everybody's work.** 
+
+Bother Kyle or the TAs if nothing's working.
 
 ## What To Do In This Activity
 
