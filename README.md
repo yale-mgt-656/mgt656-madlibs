@@ -3,11 +3,9 @@ For this activity, you will use what you've learned about git to work collaborat
 
 ## How To Setup This Activity
 
-**1) Form a group of around size 10 with your neighbors.**
+**1) Form a group with your neighbors.**
 
-**2) We will tell your group whether you guys are a story, verb, noun, adjective, or adverb group. And we will also give your group a number!**
-
-  The type of group and your group number is really important! When you follow the rest of the instructions, make sure you remember these 2 things.
+**2) Pick whether you guys will be a story, verb, noun, adjective, or adverb group.** Try to pick something different than the groups around you!
 
 **3) Make a Github account if you haven't already got one for the group.**
   
@@ -62,7 +60,7 @@ Bother Kyle or the TAs if nothing's working.
 
 ## What To Do In This Activity
 
-* The Story-groups should all have a number. Each group should create a new html file called `mystory-i.html` where **i** is your number to make a story. Stories should be put into the stories folder `/stories`. An example of a story is already in the folder (see `/stories/layout.html` or `/stories/layout2.html`) **Don't change these example files!**
+* Each Story group should create a new html file to make a story. Stories should be put into the stories folder `/stories`. An example of a story is already in the folder (see `/stories/layout.html` or `/stories/layout2.html`) **Don't change these example files!** Make new ones!
 
   Stories are written in HTML! We are not going to be styling it, so forget about the CSS. Remember the general structure of HTML code: (No need to include the DOCTYPE stuff here).
 
@@ -75,7 +73,7 @@ Bother Kyle or the TAs if nothing's working.
     ```
   You may notice that there are weird `{{...}}` everywhere in the example HTML codes. This stuff is super important! It tells our little node app that we need a(n) adjective/verb/adverb/noun at a certain place. When you write your own stories, make sure to do the same! For example, to denote an adjective, used `{{adjectives.get()}}`. The others follow the same style! 
 
-* The adjective, noun, and verb groups should work on their files. Each group here will have a number as well! Adjective, noun, and verb file should be put in their respective folders. For example, verbs should be put in `/pos/verbs/verbs-i.js` where **i** is a placeholder for your group number.
+* The adjective, noun, and verb groups should work on their files. Adjective, noun, and verb files should be put in their respective folders. For example, verbs should be put in `/pos/verbs/verbs.js`.
 
   Examples of verbs, adjectives, etc files are found in the corresponding `starter.js` file in the folder in `/pos`. **Don't change these example files!.** Instead, make a new file.
 
