@@ -1,4 +1,4 @@
-# Madlibs project
+# Madlibs Activity
 For this activity, you will use what you've learned about git to work collaboratively as a classroom to fill out a couple Madlibs. The class should be divided into groups responsible for Madlibs stories, nouns, verbs, adjectives, and adverbs. 
 
 ## How To Setup This Activity
@@ -87,6 +87,8 @@ Bother Kyle or the TAs if nothing's working.
   Notice that there is a very specific structure when listing the words in this file. Our node app waits to grab the array of words that is exported from this file. Therefore, don't forget the `module.exports.adjectives = ...`!
 
 ## Have Fun and Ask Questions!
+
+Something to keep in mind as you are working: Make sure you comment your code. You may not need it but it's generally a good idea so that you and others can understand what is going on.
 
 ## How to install (Not Necessary)
 
