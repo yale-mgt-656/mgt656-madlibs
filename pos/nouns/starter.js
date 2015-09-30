@@ -2,5 +2,11 @@
 module.exports.nouns = [
   'man',
   'bear',
-  'pig'
+  'pig',
+  'robot',
+  'pokemon',
+  'podium',
+  'bridge',
+  'monster',
+  'corn'
 ];
