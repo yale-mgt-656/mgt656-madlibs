@@ -31,7 +31,7 @@ For this activity, you will use what you've learned about git to work collaborat
 
   Watch out though! If you accidentally edit and commit changes to another one (one that you were not supposed to), and another group also changes the same file, there may result in a **Merge Conflict. Come see Kyle or the TA's for help!**).
 
-## After you are done with all your changes...
+## After You Are Done With Your Changes
 
 **7) Create a pull request.**
 
@@ -52,9 +52,9 @@ For this activity, you will use what you've learned about git to work collaborat
 
 ## What To Do In This Activity
 
-* The Story-groups should all have a number. Each group should create a new html file called `mystory-i.html` where **i** is your number to make a story. Stories should be put into the stories folder `/stories`. An example of a story is already in the folder (see `/stories/layout.html` or `/stories/layout2.html`)
+* The Story-groups should all have a number. Each group should create a new html file called `mystory-i.html` where **i** is your number to make a story. Stories should be put into the stories folder `/stories`. An example of a story is already in the folder (see `/stories/layout.html` or `/stories/layout2.html`) **Don't change these example files!**
 
-  Stories are written in HTML! We are not going to be styling it, so forget about the CSS. Remember the general structure of HTML code: (No need to the DOCTYPE stuff here).
+  Stories are written in HTML! We are not going to be styling it, so forget about the CSS. Remember the general structure of HTML code: (No need to include the DOCTYPE stuff here).
 
     ```html
     <html>
@@ -63,11 +63,20 @@ For this activity, you will use what you've learned about git to work collaborat
       </body>
     </html>
     ```
-  You may notice that there are weird `{{...}}` everywhere in the example HTML codes. This stuff is super important! It tells our little node app that we need a(n) adjective/verb/adverb/noun at a certain place. When you write your own stories, make sure to do the same!
-
-  For example, to denote an adjective, used `{{adjectives.get()}}`. The others follow the same style! 
+  You may notice that there are weird `{{...}}` everywhere in the example HTML codes. This stuff is super important! It tells our little node app that we need a(n) adjective/verb/adverb/noun at a certain place. When you write your own stories, make sure to do the same! For example, to denote an adjective, used `{{adjectives.get()}}`. The others follow the same style! 
 
 * The adjective, noun, and verb groups should work on their files. Each group here will have a number as well! Adjective, noun, and verb file should be put in their respective folders. For example, verbs should be put in `/pos/verbs/verbs-i.js` where **i** is a placeholder for your group number.
+
+  Examples of verbs, adjectives, etc files are found in the corresponding `starter.js` file in the folder in `/pos`. **Don't change these example files!.** Instead, make a new file.
+
+    ```javascript
+    module.exports.adjectives = [
+      Insert Words Here.
+    ];
+    ```
+  Notice that there is a very specific structure when listing the words in this file. Our node app waits to grab the array of words that is exported from this file. Therefore, don't forget the `module.exports.adjectives = ...`!
+
+## Have Fun and Ask Questions!
 
 ## How to install (Not Necessarily)
 
