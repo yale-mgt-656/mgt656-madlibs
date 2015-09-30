@@ -26,7 +26,8 @@ where `netid` is your netid. The password is your Yale CAS password. Once you're
 on the machine, you should clone your fork of the starter repo. That will be a command
 like
 ```
-  git clone https://github.com/yale-mgt-656/mgt656-madlibs.git
+  git clone <YOUR FORK>
+  cd mgt656-madlibs
 ```
 
 **5) Pick whether you guys will be a story, verb, noun, adjective, or adverb group.**
@@ -56,6 +57,8 @@ module.exports.verbs = [
 ```
 
 You can use the command `nano` to create and edit files.
+
+For example `nano pos/verbs/my-new-file.js` will create the file `my-new-file.js` in the directory `pos/verbs`.
 
 **8) Commit your changes and share them**
 First, take a look at the status of your work
@@ -94,7 +97,7 @@ where "BRANCHNAME" is the name of your branch.
 
   If you need extra help, check this out [https://help.github.com/articles/using-pull-requests/](https://help.github.com/articles/using-pull-requests/) or just come see a TA.
 
-**8) The instructor will merge in everybody's work.**
+**10) The instructor will merge in everybody's work.**
 
 Bother Kyle or the TAs if nothing's working.
 
