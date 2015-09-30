@@ -38,6 +38,9 @@ For this activity, you will use what you've learned about git to work collaborat
   Then, once you get to another page, click the blue link.
   ![Continuing the pull request](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/pull2.png)
 
+  Finally, click the create button to checkout the commit. 
+  ![Finishing the pull request](https://github.com/yale-mgt-656/mgt656-madlibs/blob/master/images/pull3.png)
+
   If you need extra help, check this out [https://help.github.com/articles/using-pull-requests/](https://help.github.com/articles/using-pull-requests/) or just come see a TA.
 
 9. The instructor will merge in everybody's work. Bother Kyle or the TAs if nothing's working.
@@ -48,7 +51,7 @@ Groups should work on the following:
 
 * The adjective, noun, and verb groups should work on their files. Each group here will have a number as well! Adjective, noun, and verb file should be put in their respective folders. For example, verbs should be put in `./pos/verbs/verbs(i).js` where (i) is a placeholder for your group number.
 
-## How to install
+## How to install (Not Necessarily)
 
 Everything should be able to be done on the Github webpage (https://github.com/yale-mgt-656/mgt656-madlibs). But if for some reason, you need to install the repo, here are the instructions. 
 
