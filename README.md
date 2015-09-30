@@ -3,7 +3,7 @@ For this activity, you will use what you've learned about git to work collaborat
 
 ## How To Setup This Activity
 
-**1) Form a group of around size N with your neighbors.**
+**1) Form a group of around size 10 with your neighbors.**
 
 **2) We will tell your group whether you guys are a story, verb, noun, adjective, or adverb group. And we will also give your group a number!**
 
@@ -37,7 +37,7 @@ You have to create a new file.
 
   After clicking commit, your code should have successfully saved! Once you've done this, all of the changes you've made become visible to anyone else with the same repository. That way, many groups can work on the code-base at the same time! Really cool. 
 
-  Watch out though! If you accidentally edit and commit changes to another one (one that you were not supposed to), and another group also changes the same file, there may result in a **Merge Conflict. Come see Kyle or the TA's for help!**).
+  Watch out though! If you accidentally edit and commit changes to another file (one that you were not supposed to), and another group also changes the same file, there may result in a **Merge Conflict. Come see Kyle or the TA's for help!**).
 
 ## After You Are Done With Your Changes
 
@@ -88,7 +88,7 @@ Bother Kyle or the TAs if nothing's working.
 
 ## Have Fun and Ask Questions!
 
-## How to install (Not Necessarily)
+## How to install (Not Necessary)
 
 Everything should be able to be done on the Github webpage (https://github.com/yale-mgt-656/mgt656-madlibs). But if for some reason, you need to install the repo, here are the instructions. 
 
