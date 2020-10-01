@@ -1,3 +1,4 @@
+#An Amazing Project
 # Madlibs Activity
 For this activity, you will use what you've learned about git to work collaboratively as a classroom to fill out a couple Madlibs. The class should be divided into groups responsible for Madlibs stories, nouns, verbs, adjectives, and adverbs.
 
